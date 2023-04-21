@@ -1,15 +1,13 @@
-package day8_class;
-import java.util.Scanner;
 public class Details {
 	String sname;
-	String email;	
+	String email;
 	void input()
 	{
 		Scanner s= new Scanner(System.in);
 		System.out.println("enter  name");
 		sname=s.next();
 		System.out.println("enter email");
-		email=s.next();				
+		email=s.next();
 	}
 	void display()
 	{
